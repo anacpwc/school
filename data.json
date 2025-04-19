@@ -2,164 +2,36 @@
   "courses": [
     {
       "id": 1,
-      "name": "Computação",
-      "price": "R$ 1.500,00",
-      "active": true,
-      "promotion": false
+      "name": "Medicina",
+      "price": "5000",
+      "active": "Sim",
+      "promotion": "Sim"
     },
     {
       "id": 2,
-      "name": ""
+      "name": "Matemática",
+      "price": "1000",
+      "active": "Sim",
+      "promotion": "Não"
     },
     {
       "id": 3,
-      "name": "Matemática"
-    },
-    {
-      "id": 4,
-      "name": null
-    },
-    {
-      "id": 5,
-      "name": null
-    },
-    {
-      "id": 6,
-      "name": null
-    },
-    {
-      "id": 7,
-      "name": "ADS"
-    },
-    {
-      "id": 8,
-      "name": ""
-    },
-    {
-      "id": 9,
-      "name": "Matemática"
-    },
-    {
-      "id": 10,
-      "name": "Teste"
-    },
-    {
-      "id": 11,
-      "name": "Matemática"
-    },
-    {
-      "id": 12,
-      "name": "Matemática"
-    },
-    {
-      "id": 13,
-      "name": "",
-      "price": "",
-      "active": "",
-      "promotion": ""
-    },
-    {
-      "id": 14,
-      "name": null,
-      "price": null,
-      "active": null,
-      "promotion": null
-    },
-    {
-      "id": 15,
-      "name": "Matemática",
-      "price": "R$ 1.000,00",
-      "active": "",
-      "promotion": ""
-    },
-    {
-      "id": 16,
-      "name": "Matemática",
-      "price": "R$ 1.000,00",
-      "promotion": ""
-    },
-    {
-      "id": 17,
-      "name": "Matemática",
-      "price": "R$ 1.000,00",
-      "promotion": null
-    },
-    {
-      "id": 18,
-      "name": "Matemática",
-      "price": "1000",
+      "name": "Biologia",
+      "price": "1100",
       "active": "Sim",
       "promotion": "Sim"
-    },
-    {
-      "id": 19,
-      "name": "",
-      "price": "",
-      "active": "Não",
-      "promotion": "Não"
-    },
-    {
-      "id": 20,
-      "name": "Matemática",
-      "price": "1000",
-      "active": "Sim",
-      "promotion": "Sim"
-    },
-    {
-      "id": 21,
-      "name": "Computação",
-      "price": "1000",
-      "active": "Sim",
-      "promotion": "Não"
-    },
-    {
-      "id": 22,
-      "name": "Computação",
-      "price": "1000",
-      "active": "Sim",
-      "promotion": "Não"
     }
   ],
   "students": [
     {
       "id": 1,
-      "name": "Pietro Maia",
+      "name": "Ana Carolina",
       "course": "Computação"
     },
     {
       "id": 2,
-      "name": "Artur Henrique",
-      "course": "Computação"
-    },
-    {
-      "id": 3,
-      "name": "Héber Meireles",
+      "name": "Gabriela Claro",
       "course": "Matemática"
-    },
-    {
-      "id": 4,
-      "name": "Pedro Brugnerotto",
-      "course": "Análise e Desenvolvimento de Sistemas"
-    },
-    {
-      "id": 5,
-      "name": "Ana",
-      "course": "Computação"
-    },
-    {
-      "id": 6,
-      "name": "Walinson Pereira",
-      "course": "Matemática"
-    },
-    {
-      "id": 7,
-      "name": "Gustavo",
-      "course": "Análise e Desenvolvimento de Sistemas"
-    },
-    {
-      "id": 8,
-      "name": "Glauco Todesco",
-      "course": "Computação"
     }
   ]
 }

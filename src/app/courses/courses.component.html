@@ -1,7 +1,7 @@
 <div class="container bg-light p-4">
     <div class="row">
         <div class="col-7 m-auto">
-            <h1 class="text-center">Cadastro de Alunos</h1>
+            <h1 class="text-center">Cadastro de Cursos</h1>
             <form [formGroup]="formGroupCourse">
                 <div class="mb-3">
                     <label for="inputName" class="form-label">Nome</label>
@@ -25,54 +25,46 @@
                     <label class="form-label">O curso está ativo?</label>
                     <div class="form-check">
                         <input formControlName="active" class="form-check-input" type="radio" id="radioActive1" [value]="'Sim'">
-                        <label class="form-check-label" for="radioActive1">
-                          Sim
-                        </label>
+                        <label class="form-check-label" for="radioActive1">Sim</label>
                     </div>
                     <div class="form-check">
                         <input formControlName="active" class="form-check-input" type="radio" id="radioActive2" [value]="'Não'">
-                        <label class="form-check-label" for="radioActive2">
-                          Não
-                        </label>
+                        <label class="form-check-label" for="radioActive2">Não</label>
                     </div>
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Você possui bolsa?</label>
                     <div class="form-check">
                         <input formControlName="promotion" class="form-check-input" type="radio" id="radioPromotion1" [value]="'Sim'">
-                        <label class="form-check-label" for="radioPromotion1">
-                          Sim
-                        </label>
+                        <label class="form-check-label" for="radioPromotion1">Sim</label>
                     </div>
                     <div class="form-check">
                         <input formControlName="promotion" class="form-check-input" type="radio" id="radioPromotion2" [value]="'Não'">
-                        <label class="form-check-label" for="radioPromotion2">
-                          Não
-                        </label>
+                        <label class="form-check-label" for="radioPromotion2">Não</label>
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary" (click)="save()">Salvar</button>
             </form>
-            <h2 class="text-center">Cursos Cadastrados</h2>
+
+            <h2 class="text-center mt-4">Cursos Cadastrados</h2>
             <table class="table table-striped">
                 <thead>
-                  <tr>
-                    <th scope="col">Id</th>
-                    <th scope="col">Nome</th>
-                    <th scope="col">Preço</th>
-                    <th scope="col">Ativo</th>
-                    <th scope="col">Bolsa</th>
-                  </tr>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Preço</th>
+                        <th scope="col">Ativo</th>
+                        <th scope="col">Bolsa</th>
+                    </tr>
                 </thead>
                 <tbody>
-                    <tbody>
-                        <tr *ngFor="let s of courses">
-                          <th scope="row">{{s.id}}</th>
-                          <td>{{s.name}}</td>
-                          <td>{{s.price | currency:'BRL':'symbol':'1.2-2'}}</td>
-                          <td>{{s.active}}</td>
-                          <td>{{s.promotion}}</td>
-                        </tr>
+                    <tr *ngFor="let s of courses">
+                        <th scope="row">{{ s.id }}</th>
+                        <td>{{ s.name }}</td>
+                        <td>{{ s.price | currency:'BRL':'symbol':'1.2-2' }}</td>
+                        <td>{{ s.active }}</td>
+                        <td>{{ s.promotion }}</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
