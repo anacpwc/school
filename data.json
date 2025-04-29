@@ -39,13 +39,18 @@
   "students": [
     {
       "id": 1,
-      "name": "Ana Carolina",
-      "course": "Computação"
+      "name": "Ana",
+      "course": "a"
     },
     {
       "id": 2,
-      "name": "Gabriela Claro",
-      "course": "Matemática"
+      "name": "Matemática",
+      "course": "R$ 1.000,00"
+    },
+    {
+      "id": 3,
+      "name": "Matemática",
+      "course": "Computação"
     }
   ]
 }
