@@ -20,6 +20,20 @@
       "price": "1100",
       "active": "Sim",
       "promotion": "Sim"
+    },
+    {
+      "id": 4,
+      "name": "Matemática",
+      "price": "1000",
+      "active": "Não",
+      "promotion": "Não"
+    },
+    {
+      "id": 5,
+      "name": "Matemática",
+      "price": "1000",
+      "active": "Sim",
+      "promotion": "Sim"
     }
   ],
   "students": [
